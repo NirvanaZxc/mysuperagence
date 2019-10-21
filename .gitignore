@@ -26,3 +26,7 @@
 ###> phpstrom ###
 .idea/*
 ###< phpstrom ###
+
+###> composer.lock ###
+composer.lock
+###< composer.lock ###
