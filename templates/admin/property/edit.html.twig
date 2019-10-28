@@ -2,12 +2,6 @@
 {% block body %}
     <div class="container mt-4">
         <h1>Editer le biens</h1>
-        {{ form_start(form) }}
-        <div class="row">
-            <div class="col-md-4">{{ form_row(form.title) }}</div>
-        </div>
-        {{ form_rest(form) }}
-        <button class="btn btn-primary">Editer</button>
-        {{ form_end(form) }}
+        {{ include('admin/property/_form.html.twig', {button: 'Editer'}) }}
     </div>
 {% endblock %}
